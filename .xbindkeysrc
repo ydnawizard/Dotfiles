@@ -1,0 +1,24 @@
+#Increase volume
+"pamixer --allow-boost -i 5"
+    m:0x0 + c:123
+    XF86AudioRaiseVolume
+
+#Decrease volume
+"pamixer --allow-boost -d 5"
+    XF86AudioLowerVolume
+
+#Mute
+"pamixer --toggle-mute"
+    XF86AudioMute
+
+#Pause button functionality
+"playerctl --player=%any play-pause"
+    XF86AudioPlay
+
+#Next Track Functionality
+"playerctl --player=%any next"
+    XF86AudioNext
+
+#Prev Track Functionality
+"playerctl --player=%any previous"
+    XF86AudioPrev
