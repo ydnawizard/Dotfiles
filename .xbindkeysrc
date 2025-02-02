@@ -22,3 +22,7 @@
 #Prev Track Functionality
 "playerctl --player=%any previous"
     XF86AudioPrev
+
+#Screenshot
+"scrot -F ~/pics/screenshots/screenshot.jpg -m"
+    m:0x5 + c:39
